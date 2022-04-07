@@ -1,0 +1,70 @@
+analyzer:
+  errors:
+    avoid_relative_lib_imports: error
+    avoid_init_to_null: warning
+    avoid_void_async: warning
+    avoid_unnecessary_containers: warning
+    empty_catches: warning
+    missing_required_param: error
+    missing_return: error
+    prefer_relative_imports: warning
+    prefer_single_quotes: error
+  exclude:
+    - android/app/src/build.gradle
+    - '**.g.dart'
+#
+linter:
+  rules:
+    avoid_init_to_null: true
+    avoid_private_typedef_functions: true
+    avoid_unused_constructor_parameters: true
+    avoid_unnecessary_containers: true
+    avoid_returning_null_for_future: true
+    avoid_null_checks_in_equality_operators: true
+    avoid_relative_lib_imports: true
+    avoid_empty_else: true
+    annotate_overrides: true
+    await_only_futures: true
+    avoid_void_async: true
+    cancel_subscriptions: true
+    camel_case_extensions: true
+    camel_case_types: true
+    close_sinks: true
+    comment_references: true
+    control_flow_in_finally: true
+    empty_constructor_bodies: true
+    empty_statements: true
+    empty_catches: true
+    constant_identifier_names: false
+    no_duplicate_case_values: true
+    omit_local_variable_types: false
+    prefer_collection_literals: true
+    prefer_const_declarations: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_for_elements_to_map_fromIterable: true
+    prefer_generic_function_type_aliases: true
+    prefer_relative_imports: true
+    prefer_single_quotes: true
+    prefer_spread_collections: true
+    prefer_interpolation_to_compose_strings: true
+    prefer_if_null_operators: true
+    prefer_equal_for_default_values: true
+    prefer_conditional_assignment: true
+    prefer_initializing_formals: true
+    prefer_mixin: true
+    prefer_typing_uninitialized_variables: true
+    prefer_iterable_whereType: true
+    prefer_function_declarations_over_variables: true
+    recursive_getters: true
+    slash_for_doc_comments: true
+    sized_box_for_whitespace: true
+    type_init_formals: true
+    unnecessary_brace_in_string_interps: true
+    unnecessary_getters_setters: true
+    unnecessary_statements: true
+    unnecessary_new: true
+    unnecessary_this: true
+    unnecessary_const: true
+    unnecessary_lambdas: true
+    use_function_type_syntax_for_parameters: true
